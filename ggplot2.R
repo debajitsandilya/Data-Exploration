@@ -20,7 +20,7 @@ a+geom_line()
 a+geom_point()+geom_line()
 a+geom_line()+geom_point()
 
-#overriding with ggplot
+#overriding of the plot with ggplot
 
 a<-ggplot(data=movies, aes(x=critic_rating, y=audience_rating, colour=genre, size=budget))
 a+geom_point(aes(colour=budget)) 
